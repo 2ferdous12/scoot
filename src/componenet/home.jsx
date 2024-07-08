@@ -25,7 +25,7 @@ const home = () => {
                    </div>
                 </div>
            </div>
-                <img className="hidden md:hidden lg:block" src="/public/images/Group 26 (2).png" alt="" />
+                <img className="hidden md:hidden lg:block" src="/images/Group 26 (2).png" alt="" />
             </div>
             <div className="absolute top-[63%]  md:top-[55%] lg:top-[67%] left-[22%] w-[150px]    rounded-md cursor-pointer ">
              <button className=" text-[#FFFFFF] hover:text-[#FCB72B] text-xl font-semibold 
@@ -34,16 +34,16 @@ const home = () => {
         </div>
 
     <div className="mt-20  ">
-      <img src="/public/images/Path 2 (1).png" alt="" />
+      <img src="/images/Path 2 (1).png" alt="" />
       <div className="flex gap-[50px] md:gap-[170px] lg:gap-[200px] ml-[1px] md:ml-[100px] lg:ml-[300px] -translate-y-10">
          <div className="bg-[#FCB72B] rounded-full w-[100px] flex justify-center items-center h-[100px]">
-            <img src="/public/images/001-scooter.png" alt="" />
+            <img src="/images/001-scooter.png" alt="" />
          </div>
          <div className="bg-[#FCB72B] rounded-full w-[100px] flex justify-center items-center h-[100px]">
-            <img src="/public/images/001-scooter.png" alt="" />
+            <img src="/images/001-scooter.png" alt="" />
          </div>
          <div className="bg-[#FCB72B] rounded-full w-[100px] flex justify-center items-center h-[100px]">
-            <img src="/public/images/001-scooter.png" alt="" />
+            <img src="/images/001-scooter.png" alt="" />
          </div>
      
       </div>
@@ -87,14 +87,14 @@ const home = () => {
         </div>
 
         <div>
-            <img src="/public/images/Group 33.png" alt="" />
+            <img src="/images/Group 33.png" alt="" />
         </div>
     </div>
 
 
     <div className="mt-20 flex p-5  flex-col md:flex-row lg:flex-row  justify-between">
          <div>
-            <img src="/public/images/Bitmap Copy.png" alt="" />
+            <img src="/images/Bitmap Copy.png" alt="" />
         </div> 
        
         <div className="space-y-8">
@@ -126,7 +126,7 @@ const home = () => {
         </div>
 
         <div>
-            <img className="rounded-full" src="/public/images/Bitmap (2).png" alt="" />
+            <img className="rounded-full" src="/images/Bitmap (2).png" alt="" />
         </div>
     </div>
 

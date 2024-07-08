@@ -5,7 +5,7 @@ const about = () => {
         <div>
             <div>
                 <div className="h-[200px]">
-                    <img className="h-full" src="/public/images/Group 22.png" alt="" />
+                    <img className="h-full" src="/images/Group 22.png" alt="" />
                 </div>
             </div>
             <div className="mt-20 flex p-5  flex-col md:flex-row lg:flex-row items-center gap-5  justify-between">
@@ -17,14 +17,14 @@ const about = () => {
                         embrace technology to provide low cost, smart access to scooters at your fingertips.</p>
                 </div>
                 <div>
-                    <img className="w-full" src="/public/images/Bitmap (3).png" alt="" />
+                    <img className="w-full" src="/images/Bitmap (3).png" alt="" />
                 </div>
             </div>
 
 
             <div className="mt-20 flex p-5 items-center gap-5 flex-col md:flex-row lg:flex-row  justify-between">
                 <div className="w-[370px] md:w-[500px] lg:w-[500px] h-[500px]  rounded-ful">
-                    <img className="w-full h-full  rounded-ful" src="/public/images/Bitmap (4).png" alt="" />
+                    <img className="w-full h-full  rounded-ful" src="/images/Bitmap (4).png" alt="" />
                 </div>
                 <div className="space-y-8">
                     <h1 className="text-4xl md:text-6xl lg:text-6xl text-[#495567] font-bold">Better urban <br /> living
@@ -42,7 +42,7 @@ const about = () => {
                 <div className="mt-20 flex flex-col md:flex-row lg:flex-row justify-between">
                     <div>
                         <div className="">
-                            <img className="rounded-full w-[300px] md:w-[200px] lg:w-[300px] h-[300px] md:h-[200px] lg:h-[300px] " src="/public/images/Bitmap (5).png" alt="" />
+                            <img className="rounded-full w-[300px] md:w-[200px] lg:w-[300px] h-[300px] md:h-[200px] lg:h-[300px] " src="/images/Bitmap (5).png" alt="" />
                             <div className=" ml-20 md:ml-10 lg:ml-20
                            bg-[#FCB72B] flex items-center justify-center h-[100px] w-[100px] rounded-full">
                                 <h1 className="text-4xl font-bold">01</h1>
@@ -58,7 +58,7 @@ const about = () => {
 
                     <div>
                         <div className="">
-                            <img className="rounded-full  w-[300px] md:w-[200px] lg:w-[300px] h-[300px] md:h-[200px] lg:h-[300px]  " src="/public/images/Bitmap (6).png" alt="" />
+                            <img className="rounded-full  w-[300px] md:w-[200px] lg:w-[300px] h-[300px] md:h-[200px] lg:h-[300px]  " src="/images/Bitmap (6).png" alt="" />
                             <div className="  ml-20 md:ml-10 lg:ml-20
                           bg-[#FCB72B] flex items-center justify-center h-[100px] w-[100px] rounded-full">
                                 <h1 className="text-4xl font-bold">02</h1>
@@ -74,7 +74,7 @@ const about = () => {
 
                     <div>
                         <div className="">
-                            <img className="rounded-full  w-[300px] md:w-[200px] lg:w-[300px] h-[300px] md:h-[200px] lg:h-[300px]  " src="/public/images/Bitmap (7).png" alt="" />
+                            <img className="rounded-full  w-[300px] md:w-[200px] lg:w-[300px] h-[300px] md:h-[200px] lg:h-[300px]  " src="/images/Bitmap (7).png" alt="" />
                             <div className=" ml-20 md:ml-10 lg:ml-20
                               bg-[#FCB72B] flex items-center justify-center h-[100px] w-[100px] rounded-full">
                                 <h1 className="text-4xl font-bold">03</h1>
@@ -98,23 +98,26 @@ const about = () => {
                     </div>
 
                     <div className="w-[100%] md:w-[50%] lg:w-[50%] space-y-5">
-                        <div className="collapse collapse-arrow bg-base-200">
+                        <div className="collapse collapse-arrow bg-[#F2F5F9]">
                             <input type="radio" name="my-accordion-2" defaultChecked />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                            <div className="collapse-title text-xl font-medium">How do I download the app?</div>
+                            <div className="collapse-content">
+                                <p>To download the Scoot app, you can search “Scoot” in both the App and Google Play stores.
+                                     An even simpler way to do it would be to click the 
+                                    relevant link at the bottom of this page and you’ll be re-directed to
+                                     the correct page.</p>
+                            </div>
+                        </div>
+                        <div className="collapse collapse-arrow bg-[#F2F5F9]">
+                            <input type="radio" name="my-accordion-2" />
+                            <div className="collapse-title text-xl font-medium">Can I find a nearby Scoots?</div>
                             <div className="collapse-content">
                                 <p>hello</p>
                             </div>
                         </div>
-                        <div className="collapse collapse-arrow bg-base-200">
+                        <div className="collapse collapse-arrow bg-[#F2F5F9]">
                             <input type="radio" name="my-accordion-2" />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
-                            <div className="collapse-content">
-                                <p>hello</p>
-                            </div>
-                        </div>
-                        <div className="collapse collapse-arrow bg-base-200">
-                            <input type="radio" name="my-accordion-2" />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                            <div className="collapse-title text-xl font-medium">Do I need a license to ride?</div>
                             <div className="collapse-content">
                                 <p>hello</p>
                             </div>
@@ -125,27 +128,29 @@ const about = () => {
 
                 <div className="mt-20 flex flex-col gap-5 md:flex-row lg:flex-row">
                     <div className="w-[100%] md:w-[50%] lg:w-[50%]">
-                        <h1 className="font-bold text-2xl ">How it works</h1>
+                        <h1 className="font-bold text-2xl ">Safe driving</h1>
                     </div>
 
                     <div className="w-[100%] md:w-[50%] lg:w-[50%] space-y-5">
-                        <div className="collapse collapse-arrow bg-base-200">
+                        <div className="collapse collapse-arrow bg-[#F2F5F9]">
                             <input type="radio" name="my-accordion-2" defaultChecked />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                            <div className="collapse-title text-xl font-medium">Should I wear a helmet?</div>
+                            <div className="collapse-content">
+                                <p>Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always
+                                     wearing a helmet regardless of the local laws. We like you and we want you 
+                                     to be as safe as possible while Scooting.</p>
+                            </div>
+                        </div>
+                        <div className="collapse collapse-arrow bg-[#F2F5F9]">
+                            <input type="radio" name="my-accordion-2" />
+                            <div className="collapse-title text-xl font-medium">How about the rules & regulations?</div>
                             <div className="collapse-content">
                                 <p>hello</p>
                             </div>
                         </div>
-                        <div className="collapse collapse-arrow bg-base-200">
+                        <div className="collapse collapse-arrow bg-[#F2F5F9]">
                             <input type="radio" name="my-accordion-2" />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
-                            <div className="collapse-content">
-                                <p>hello</p>
-                            </div>
-                        </div>
-                        <div className="collapse collapse-arrow bg-base-200">
-                            <input type="radio" name="my-accordion-2" />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                            <div className="collapse-title text-xl font-medium">What if I damage my Scoot?</div>
                             <div className="collapse-content">
                                 <p>hello</p>
                             </div>

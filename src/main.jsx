@@ -4,7 +4,8 @@ import Route from './route';
 import './index.css'
 import Home from './componenet/home';
 import About from './componenet/about';
-
+import Locations from './componenet/locations';
+import Careers from './componenet/careers';
 
 
 import {
@@ -24,7 +25,15 @@ const router = createBrowserRouter([
    {
      path: "/about",
      element: <About></About>
-   }
+   },
+   {
+     path: "/locations",
+     element: <Locations></Locations>
+   },
+   {
+     path: "/careers",
+     element: <Careers></Careers>
+   },
     ]
   },
 ]);

@@ -8,15 +8,15 @@ const navbar = () => {
              max-w-[1440px] h-[90px]">
                 <div className="block md:hidden flex space-x-40 items-center lg:hidden ">
     
-                    <img className="h-[22px]" src="/public/images/Group (1).svg" alt="" />
+                    <img className="h-[22px]" src="/images/Group (1).svg" alt="" />
                     <p className="text-3xl font-bold cursor-pointer">Scoot</p>
                 </div>
                 <div className="hidden md:block lg:block">
                     <div className="flex  items-center space-x-10">
                         <Link to="/" className="text-3xl font-bold cursor-pointer">Scoot</Link>
                         <Link to="/about" className="text-xl text-gray-500 font-semibold cursor-pointer">About</Link>
-                        <p className="text-xl text-gray-500 font-semibold cursor-pointer">Location</p>
-                        <p className="text-xl text-gray-500 font-semibold cursor-pointer">Careers</p>
+                        <Link to="/locations" className="text-xl text-gray-500 font-semibold cursor-pointer">Location</Link>
+                        <Link to="/careers" className="text-xl text-gray-500 font-semibold cursor-pointer">Careers</Link>
                     </div>
                 </div>
 
